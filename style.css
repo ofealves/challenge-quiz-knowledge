@@ -179,3 +179,9 @@ footer {
     }
 
 }
+
+@media (hover: none) {
+    .option:hover {
+        background-color: transparent; 
+    }
+}
