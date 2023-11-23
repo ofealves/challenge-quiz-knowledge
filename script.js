@@ -69,7 +69,7 @@ function finishQuiz() {
     }
 
     document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`
-    document.querySelector('.scoreText2').innerHTML = `Voce respondeu ${questions.length} questoes e acertou ${correctAnswers}.`;
+    document.querySelector('.scoreText2').innerHTML = `Você respondeu ${questions.length} questões e acertou ${correctAnswers}.`;
 
 
     document.querySelector('.scoreArea').style.display = 'block';
